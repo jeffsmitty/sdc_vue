@@ -27,7 +27,6 @@
       msg: String
     }
   };
- console.log("hello world");
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

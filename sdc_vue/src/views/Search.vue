@@ -53,8 +53,8 @@
               and: ['Keyword', 'Text Search', 'Author']
             }"
           >
-          <div slot="renderItem" slot-scope="{ res }">
-            {{res.metadata.resourceInfo.citation.title}}
+          <div slot="renderItem" slot-scope="{ item }">
+            {{item.metadata.resourceInfo.citation.title}}<br/><br/>
           </div>
           </reactive-list>
 
